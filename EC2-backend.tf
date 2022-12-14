@@ -7,6 +7,7 @@ resource "aws_instance" "ec2_demo" {
 
   tags = {
     Name = "Created_By_Terraform_Automation"
+    Application = "HRMS"
   }
 
   root_block_device {
